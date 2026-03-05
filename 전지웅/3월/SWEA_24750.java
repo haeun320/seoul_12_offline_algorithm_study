@@ -83,7 +83,7 @@ class UserSolution {
         // 중간지점
         String str = num1R + num2L;
 
-        // 중간지점의 mNum 더하기
+        // 중간지점의 mNum 더하기 
         for (int i = 0; i <= 1; i++) {
             String n = "" + str.charAt(i) + str.charAt(i + 1) + str.charAt(i + 2);
             if (Integer.parseInt(n) == mNum) {
